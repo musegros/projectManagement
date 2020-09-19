@@ -1,0 +1,17 @@
+C0301, Line too long
+Added to ensure code is more readable and because it will frustrate Zijad
+
+C0303, Trailing whitespace
+Added because I don't understand why anyone would put spaces at the end of a line. If you're done with a line, press enter and be done with it!
+
+E0213, Method should have "self" as first argument
+This is a common convention, and I can imagine being very confused for at least five seconds if I see anything other than "self"
+
+E0211, Method has no argument
+I use classes so infrequently that I'd probably forget to put self in the arguments
+
+C0102, Black listed name
+There are people that give their variables single-letter names (e.g. i). Those people must be stopped.
+
+W0312, Found indentation with spaces instead of tabs
+I don't know what's better out of the two, but I know that python throws a fit for me if they're mixed
